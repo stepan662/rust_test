@@ -1,3 +1,4 @@
-fn main() {
-    println!("Hello, world!");
+mod guessing_game;
+fn main() -> () {
+    guessing_game::game();
 }
